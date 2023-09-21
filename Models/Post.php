@@ -16,7 +16,6 @@ class Post extends Model
      */
     public function foos()
     {
-
         
         return $this->hasMany(Foo::class, 'skwal');
     }
