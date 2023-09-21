@@ -19,5 +19,7 @@ class Post extends Model
 
         
         return $this->hasMany(Foo::class, 'skwal');
+
+        
     }
 }
